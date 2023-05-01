@@ -5,6 +5,8 @@ This is the official Pytorch implementation of "Conditional Deformable Image Reg
 
 Author: Yinsong Wang, Huaqi Qiu, Chen Qin
 
+Paper link: https://arxiv.org/abs/2303.10700
+
 # Publication
 If you make use of the code, or if you found the code useful, please cite the paper in any resulting publications.
 - **Conditional Deformable Image Registration with Spatially-Variant and Adaptive Regularization**  
