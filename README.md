@@ -1,7 +1,8 @@
 # Conditional-Deformable-Image-Registration-with-Spatially-variant-and-Adaptive-Regularization
 Code for paper "Conditional Deformable Image Registration with Spatially-Variant and Adaptive Regularization" (ISBI 2023)
 
-This is the official Pytorch implementation of "Conditional Deformable Image Registration with Spatially-Variant and Adaptive Regularization",
+This is the official Pytorch implementation of "Conditional Deformable Image Registration with Spatially-Variant and Adaptive Regularization"
+
 Author: Yinsong Wang, Huaqi Qiu, Chen Qin
 
 # Publication
