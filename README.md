@@ -7,7 +7,7 @@ Author: Yinsong Wang, Huaqi Qiu, Chen Qin
 
 Paper link: https://arxiv.org/abs/2303.10700
 
-## Prerequisites
+# Prerequisites
 - `Python 3.5.2+`
 - `Pytorch 1.3.0 - 1.7.1`
 - `NumPy`
