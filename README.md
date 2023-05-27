@@ -7,6 +7,12 @@ Author: Yinsong Wang, Huaqi Qiu, Chen Qin
 
 Paper link: https://arxiv.org/abs/2303.10700
 
+## Prerequisites
+- `Python 3.5.2+`
+- `Pytorch 1.3.0 - 1.7.1`
+- `NumPy`
+- `NiBabel`
+
 # Publication
 If you make use of the code, or if you found the code useful, please cite the paper in any resulting publications.
 - **Conditional Deformable Image Registration with Spatially-Variant and Adaptive Regularization**  
@@ -21,7 +27,7 @@ If you make use of the code, or if you found the code useful, please cite the pa
 
 
 ## Acknowledgment
-Some codes in this repository are modified from [cLapIRN](https://github.com/cwmok/Conditional_LapIRN) and [LapIRN](https://github.com/cwmok/LapIRN).
+Some codes in this repository are modified from these two amazing project [cLapIRN](https://github.com/cwmok/Conditional_LapIRN) and [LapIRN](https://github.com/cwmok/LapIRN).
 
 
 ## Keywords
