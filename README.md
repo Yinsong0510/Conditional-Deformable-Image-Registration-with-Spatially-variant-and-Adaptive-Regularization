@@ -3,7 +3,7 @@ Code for paper "Conditional Deformable Image Registration with Spatially-Variant
 
 This is the official Pytorch implementation of "Conditional Deformable Image Registration with Spatially-Variant and Adaptive Regularization"
 
-The code has been tested in Pytorch using OASIS dataset, which can be download here: https://github.com/adalca/medical-datasets/blob/master/neurite-oasis.md
+The code has been tested in Pytorch using OASIS dataset, which can be downloaded here: https://github.com/adalca/medical-datasets/blob/master/neurite-oasis.md
 
 Author: Yinsong Wang, Huaqi Qiu, Chen Qin
 
