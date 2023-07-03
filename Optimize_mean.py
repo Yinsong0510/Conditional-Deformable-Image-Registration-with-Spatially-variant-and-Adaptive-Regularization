@@ -71,9 +71,9 @@ def test():
 
     my_dice = DiceLoss()
 
-    imgs = sorted(glob.glob(datapath + '/OASIS_OAS1_*_MR1/slice_norm.nii.gz'))[-10:]
-    labels = sorted(glob.glob(datapath + '/OASIS_OAS1_*_MR1/slice_seg24.nii.gz'))[-10:]
-    seg_name = sorted(glob.glob(datapath + '/OASIS_OAS1_*_MR1/slice_seg4.nii.gz'))[-10:]
+    imgs = sorted(glob.glob(datapath + '/OASIS_OAS1_*_MR1/slice_norm.nii.gz'))[-20:]
+    labels = sorted(glob.glob(datapath + '/OASIS_OAS1_*_MR1/slice_seg24.nii.gz'))[-20:]
+    seg_name = sorted(glob.glob(datapath + '/OASIS_OAS1_*_MR1/slice_seg4.nii.gz'))[-20:]
 
     valid_generator = Data.DataLoader(
         Dataset_epoch_validation(imgs, labels, seg_name, norm=True),
@@ -163,22 +163,6 @@ def test():
 
         Jaco = JacboianDet(F_X_Y_norm, grid).detach().cpu().numpy()
 
-        dice_total.append(dice_score)
-        Jacobian_total.append(loss_Jacobian)
-        grad_total.append(grad_Jaco)
-        reg_total.append(reg_code.detach().cpu().numpy())
-        std_total.append(np.std(Jaco))
-
-    dic = pd.DataFrame(dice_total)
-    dic.to_csv('dice.csv')
-    Jac = pd.DataFrame(Jacobian_total)
-    Jac.to_csv('Jacobian.csv')
-    grad = pd.DataFrame(grad_total)
-    grad.to_csv('grad.csv')
-    reg = pd.DataFrame(reg_total)
-    reg.to_csv('reg.csv')
-    std = pd.DataFrame(std_total)
-    std.to_csv('std.csv')
 
 
 if __name__ == '__main__':
